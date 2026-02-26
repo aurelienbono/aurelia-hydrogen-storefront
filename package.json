@@ -1,0 +1,40 @@
+{
+  "name": "premium-fashion-store",
+  "version": "1.0.0",
+  "description": "Production-ready Hydrogen v2 headless ecommerce for premium fashion/lifestyle DTC",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "remix vite:build",
+    "dev": "shopify app dev",
+    "codegen": "shopify hydrogen codegen",
+    "codegen:watch": "shopify hydrogen codegen --watch",
+    "lint": "eslint .",
+    "preview": "shopify app preview",
+    "deploy": "shopify app deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remix-run/react": "^2.15.0",
+    "@shopify/hydrogen": "^2024.1.0",
+    "@shopify/remix-oxygen": "^1.5.0",
+    "isbot": "^5.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.0",
+    "@graphql-codegen/typescript": "^4.0.0",
+    "@graphql-codegen/typescript-operations": "^4.0.0",
+    "@remix-run/dev": "^2.15.0",
+    "@shopify/cli": "^3.60.0",
+    "@shopify/hydrogen-codegen": "^0.3.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0",
+    "vite-tsconfig-paths": "^5.1.0",
+    "tailwindcss": "^3.4.0"
+  }
+}
